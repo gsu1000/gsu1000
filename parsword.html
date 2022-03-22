@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: cyan;
+        }
+        p.poo {
+            size: 6px;
+            color: darkblue;
+
+        }
+    </style>
+    <title>parsword</title>
+    <script>
+        function checkParssword(){
+            var parssword = document.getElementById("parsswordBox");
+            var parsswordText = parssword.value;
+            if(parsswordText == "charlie100"){
+                return true;
+
+            }
+           alert("wrong")
+           return false;
+
+        }
+
+
+    </script>
+</head>
+<body>
+<P class="poo">Charile's Website</P>
+<P>parssword:<input id ="parsswordBox" type="password"</P>
+
+
+
+<P>
+<a href = "home.html" onclick = "return(checkParssword())";>click here to submit parsword and go to Home</a>
+</P>
+
+
+</body>
+
+
+
+
+
+</html>
